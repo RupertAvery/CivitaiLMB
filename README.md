@@ -6,6 +6,13 @@ The scripts used to download, convert to SQLite, and the raw JSON and 7zipped SQ
 
 The main use for this is to have an offline metadata viewer and alternate search tool since CivitAi is now hiding some models from search, although the model pages and downloads are still available.
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/9d1f16ef-1ba3-4024-80a6-3c70cbae3286)
+
+![image](https://github.com/user-attachments/assets/fadb005d-242b-4477-a7f8-d9b64c067065)
+
+
 ## Instructions
 
 1. Install Python 3.10 or later
