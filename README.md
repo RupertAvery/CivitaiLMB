@@ -8,7 +8,7 @@ The main use for this is to have an offline metadata viewer and alternate search
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/9d1f16ef-1ba3-4024-80a6-3c70cbae3286)
+![image](https://github.com/user-attachments/assets/584e5071-59f9-455f-b612-18a113efb531)
 
 ![image](https://github.com/user-attachments/assets/fadb005d-242b-4477-a7f8-d9b64c067065)
 
