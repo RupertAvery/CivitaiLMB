@@ -1,0 +1,44 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  .carousel-image {
+    width: 100%;
+    display: block;
+    object-fit: scale-down;
+    border-radius: 12px;
+    height: 450px;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+    transition: background 0.2s;
+  }
+  
+  .nav:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .nav.left {
+    left: 0.5rem;
+  }
+  
+  .nav.right {
+    right: 0.5rem;
+  }

@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #353a4e;
+}
+
+#root {
+    height: calc(100vh);
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    /* include padding & border in the 100% */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+
+    >.filters {
+        color: white;
+        padding: 10px;
+        width: 15em;
+        overflow-y: auto;
+
+        input {
+            outline: none;
+        }
+    }
+
+    >.models {
+        flex: auto;
+    }
+
+    >.model {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 1em;
+        background: rgba(255,255,255,50) ;
+        width: calc(100vw - 4em);
+        height: calc(100vh - 2em);
+        overflow-y: auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        padding: 1em;
+        backdrop-filter: blur(5px);
+    }
+}
+
+.query {
+    input[type='text'] {
+        padding: 5px;
+        width: 100%;
+    }
+}
+
+// Center in the middle of the screen
+.loading {
+    position: absolute;
+    width: 20em;
+    height: 8em;
+    padding: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #5b96cc 1px solid;
+
+    font-size: 2em;
+    color: #5b96cc;
+    h1 {
+        font-size: 1em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline;
+        font-weight: bold;
+    }
+} 
+
+// Slide up text and opacity
+.slide-up {
+    animation: slide-up 0.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+    @keyframes slide-up {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    background-color: #5b96cc;
+}
+
+
+
+.clicked {
+    background-color: #2ddd85 !important;
+}

@@ -1,0 +1,24 @@
+.filters {
+    >.filter~.filter {
+        margin-top: 20px;
+    }
+
+    >.filter {
+        user-select: none;
+
+        >.header {
+            font-weight: bold;
+            background-color: #8a8a8a;
+            padding: 5px 10px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+        }
+
+        >.items {
+            padding: 10px 5px;
+            max-height: 20em;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+        }
+    }
+}
