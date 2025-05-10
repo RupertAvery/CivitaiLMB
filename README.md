@@ -6,6 +6,8 @@ The scripts used to download, convert to SQLite, and the raw JSON and 7zipped SQ
 
 The main use for this is to have an offline metadata viewer and alternate search tool since CivitAi is now hiding some models from search, although the model pages and downloads are still available.
 
+An alternative to this is https://github.com/RemmyLee/civitr, also uses the same `models.db`.
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/584e5071-59f9-455f-b612-18a113efb531)
