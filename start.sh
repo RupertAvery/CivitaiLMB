@@ -4,7 +4,8 @@
 cd backend || exit
 
 # Install Python dependencies
-pip install pydantic typing fastapi gdown py7zr
+pip install --upgrade pip setuptools
+pip install pydantic fastapi gdown py7zr
 
 # Set the port (change this value as needed)
 UVICORN_PORT=8000
